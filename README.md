@@ -20,7 +20,7 @@
 * Get all attributes of target element
 * Get tag name of target elements (orig_tag)
 * Get all elements from other sample page with orig_tag
-* Count for every found elements in sample page: amount of attributes equal to attributes of orig element
+* Count for every found elements (on previous step) in sample page: amount of attributes equal to attributes of orig element
 * Element with max attributes equal to origin element attributes is found element
 
 ## Examples
