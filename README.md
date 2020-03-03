@@ -24,14 +24,14 @@
 * Element with max attributes equal to origin element attributes is found element
 
 ## Examples
-`$ python app.py samples/sample-0-origin.html samples/sample-1-evil-gemini.html 
-html > body > div > div > div[3] > div[1] > div > div[2] > a[2]`
+`$ python app.py samples/sample-0-origin.html samples/sample-1-evil-gemini.html`
+`html > body > div > div > div[3] > div[1] > div > div[2] > a[2]`
 
-`$ python app.py samples/sample-0-origin.html samples/sample-2-container-and-clone.html 
-html > body > div > div > div[3] > div[1] > div > div[2] > div > a`
+`$ python app.py samples/sample-0-origin.html samples/sample-2-container-and-clone.html`
+`html > body > div > div > div[3] > div[1] > div > div[2] > div > a`
 
-`$ python app.py samples/sample-0-origin.html samples/sample-3-the-escape.html 
-html > body > div > div > div[3] > div[1] > div > div[3] > a`
+`$ python app.py samples/sample-0-origin.html samples/sample-3-the-escape.html`
+`html > body > div > div > div[3] > div[1] > div > div[3] > a`
 
-`$ python app.py samples/sample-0-origin.html samples/sample-4-the-mash.html 
-html > body > div > div > div[3] > div[1] > div > div[3] > a`
+`$ python app.py samples/sample-0-origin.html samples/sample-4-the-mash.html`
+`html > body > div > div > div[3] > div[1] > div > div[3] > a`
