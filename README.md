@@ -23,6 +23,20 @@
 * Count for every found elements (on previous step) in sample page: amount of attributes equal to attributes of orig element
 * Element with max attributes equal to origin element attributes is found element
 
+
+## Some analytics based on provided samples
+| attr          | 0 - origin page                               | 1 - sample page                               | 2 - sample page                                   | 3 - sample page                               | 4 - sample page                                   |
+|---------------|-----------------------------------------------|-----------------------------------------------|---------------------------------------------------|-----------------------------------------------|---------------------------------------------------|
+| id            | **make-everything-ok-button**                 |                                               |                                                   |                                               |                                                   |
+| class         | **btn btn-success**                           | **btn btn-success**                           | btn test-link-ok                                  | **btn btn-success**                           | **btn btn-success**                               |
+| href          | **#ok**                                       | #check-and-ok                                 | **#ok**                                           | **#ok**                                       | **#ok**                                           |
+| title         | **Make-Button**                               | **Make-Button**                               | **Make-Button**                                   | Do-Link                                       | **Make-Button**                                   |
+| rel           | **next**                                      | done                                          | **next**                                          | **next**                                      | **next**                                          |
+| onclick       | **javascript:window.okDone(); return false;** | **javascript:window.okDone(); return false;** | javascript:window.okComplete(); return false;     | **javascript:window.okDone(); return false;** | javascript:window.okFinalize(); return false;     |
+| text          | **Make everything OK**                        | **Make everything OK**                        | **Make everything OK**                            | Do anything perfect                           | Do all GREAT                                      |
+| equal tags    | 7                                             | 4                                             | 4                                                 | 4                                             | 4                                                 |
+
+
 ## Examples
 `$ python app.py samples/sample-0-origin.html samples/sample-1-evil-gemini.html`  
 `html > body > div > div > div[3] > div[1] > div > div[2] > a[2]`
